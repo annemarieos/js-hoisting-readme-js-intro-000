@@ -27,19 +27,19 @@ describe('hoisting', () => {
     beforeEach(() => {
       chai.spy.on(console, 'log')
     })
-  
+
     afterEach(() => {
       console.log.reset()
     })
-  
+
     describe('crazy', () => {
       it("prints 'hey!!!' to the console from the nested function", () => {
         crazy()
-  
+
         expect(console.log).to.have.been.called.with("hey!!!")
       })
     })
-  
+
     describe('sayMyName', () => {
       it("prints 'Kristin' to the console from the nested function", () => {
         sayMyName()

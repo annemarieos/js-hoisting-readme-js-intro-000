@@ -13,8 +13,9 @@ function crazy() {
   // fix the code in here:
 
   var thisIsCrazy = function (){
-    console.log(thisIsCrazy)
+    console.log("hey!!!")
   }
+  thisIsCrazy()
 }
   console.log(thisIsCrazy)
 

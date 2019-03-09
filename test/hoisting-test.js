@@ -40,11 +40,11 @@ describe('hoisting', () => {
       })
     })
 
-    describe('sayMyName', () => {
-      it("prints 'Kristin' to the console from the nested function", () => {
-        sayMyName()
-        expect(console.log).to.have.been.called.with("Kristin")
-      })
-    })
+    // describe('sayMyName', () => {
+    //   it("prints 'Kristin' to the console from the nested function", () => {
+    //     sayMyName()
+    //     expect(console.log).to.have.been.called.with("Kristin")
+    //   })
+    // })
   })
 })
